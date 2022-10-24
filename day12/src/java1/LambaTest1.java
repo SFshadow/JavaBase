@@ -1,7 +1,9 @@
 package java1;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.junit.Test;
 
+import java.util.Comparator;
 import java.util.function.Consumer;
 
 /***
@@ -66,6 +68,33 @@ public class LambaTest1 {
         Consumer<String> con4_4=(s)-> System.err.println(s);
         con4_4.accept("4");
 
+        //语法格式5：若lamba多个参数，有返回值，不止一条执行语句
+        Comparator<Integer> com=new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                System.out.println(o1);
+                System.out.println(o2);
+                return o1.compareTo(o2);
+            }
+        };
+        Comparator<Integer> com_2=(o1,o2)->{
+            System.out.println(o1);
+            System.out.println(o2);
+            return o1.compareTo(o2);
+        };
+        com.compare(10,20);
+        com_2.compare(11,22);
+
+        //语法格式6：当lamba体只有一条语句时，return与大括号都有，都可以省略
+        Comparator<Integer> com3=new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1.compareTo(o2);
+            }
+        };
+        Comparator<Integer> com_3=(o1,o2)-> o1.compareTo(o2);;
+        com3.compare(10,20);
+        com_3.compare(11,22);
 
 
 

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4264683e-95e8-4fff-bbe0-79756522b63d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/day12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java1/LambaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java1/LambaTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java2/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java3/StreamAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/java1/LambaTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/src/java1/LambaTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java1/LambaTest1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +20,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="2G79nlgPeNdfKemk0zmkRgz5cGe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../nhkg_new" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.LambaTest1.test (3)">
+  <component name="RunManager" selected="JUnit.LambaTest1.test">
     <configuration name="LambaTest1.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day12" />
       <extension name="coverage">
@@ -126,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LambaTest1.test (3)" />
         <item itemvalue="JUnit.LambaTest1.test" />
+        <item itemvalue="JUnit.LambaTest1.test (3)" />
         <item itemvalue="JUnit.LambaTest1.test (2)" />
         <item itemvalue="JUnit.LambaTest1.test (1)" />
         <item itemvalue="JUnit.LambaTest.test" />
@@ -146,42 +166,63 @@
       <updated>1665728923052</updated>
       <workItem from="1665728927154" duration="3532000" />
       <workItem from="1666074064739" duration="3352000" />
-      <workItem from="1666317233123" duration="2775000" />
+      <workItem from="1666317233123" duration="3887000" />
+      <workItem from="1666576652792" duration="9606000" />
     </task>
+    <task id="LOCAL-00001" summary="20221021">
+      <created>1666342477281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666342477281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20221021" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1666074950165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666074950165" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1666339699396">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1666581933738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666339699396" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1666342353301">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666581933738" />
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1666342476156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666342353301" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1666342353301">
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666342476156" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1666345789526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666342353301" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1666342353301">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666345789526" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1666345789526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666342353301" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1666342353301">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666345789526" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1666345789526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666342353301" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1666317417424">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666345789526" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1666345789526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666317417424" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666345789526" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1666342603673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666342603673" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1666576857903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666576857903" />
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1666339487560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
